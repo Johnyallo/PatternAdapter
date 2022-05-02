@@ -14,7 +14,7 @@ public class Calculator {
 
         protected Formula(){}
 
-        protected Formula addOperand(Double operand) {
+        protected Formula addOperand(double operand) {
             if (a == null) {
                 a = operand;
             } else if (b == null) {
